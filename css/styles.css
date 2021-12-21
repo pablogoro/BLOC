@@ -10,10 +10,19 @@ p {
     font-size: 1rem;
 }
 
+div p {
+    color: rgb(46, 46, 48);
+}
+
 h1 {
     font-size: 3rem;
     margin: 0;
     color: aliceblue;
+}
+
+h2 {
+    font-size: 2rem;
+    color: black
 }
 
 h3 {
@@ -122,14 +131,61 @@ img {
 }
 
 #card-4 {
-    background-image: url("../img/simon-lee-O3oIMSvv6O8-unsplash.jpg");
+    background-image: url("../img/erik-skof-5tOkn0T5z5o-unsplash.jpg");
     background-position: center;
     background-size: cover;
     height: 60vh;
 }
 
+#card-5 {
+    background-image: url("../img/hamdhulla-shakeeb-2vDYo-3kZ3A-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+#card-6 {
+    background-image: url("../img/benaja-germann-LlvkUwwoA7s-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+#card-7 {
+    background-image: url("../img/hello-i-m-nik-IVTMne6y6Xk-unsplash.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 60vh;
+}
+
 .padding-s {
-    padding: 0.5%;
+    padding: 5%;
+}
+
+.padding-n {
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+}
+
+article {
+    padding: 1%;
+    background-color: cadetblue;
+}
+
+.footer {
+    background-color: rgb(1, 15, 17);
+    padding: 1%;
+}
+
+footer div {
+    color: rgb(248, 168, 168);
+}
+
+footer div p {
+    color: floralwhite;
 }
 
 @media only screen and (max-width: 800px) {
@@ -141,6 +197,5 @@ img {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
-        height: 50vh;
     }
 }
